@@ -10,6 +10,8 @@ Approach: Train a regression model using scikit-learn and expose it via Flask RE
 
 Use Case: Useful for car dealerships, second-hand car platforms, and buyers for fair price estimation.
 
+
+Project Structure:
 flask-ml-app/
 │── app.py              # main flask app
 │── model.py            # ML model logic (train, predict)
@@ -19,3 +21,10 @@ flask-ml-app/
 │    └── test.csv
 │── saved_model/
 │    └── model.pkl
+
+Technologies Used:
+
+Python 3.x
+Pandas
+Scikit-learn
+Flask
